@@ -3,7 +3,7 @@ const { MongoClient } = require('mongodb');
 // Define an async function to run our MongoDB operations
 async function main() {
   // Define the MongoDB URI (this connects to localhost by default)
-  const uri = "mongodb://localhost:27017"; // Replace with your MongoDB connection string if needed
+  const uri = "mongodb+srv://stitch0212:Kehan0212@cluster0.ojfdl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // Replace with your MongoDB connection string if needed
 
   // Create a new MongoClient
   const client = new MongoClient(uri);
